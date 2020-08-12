@@ -19,10 +19,11 @@ steps:
       - npm test
 
   - name: publish
-    image: riscue/drone-img
+    image: banzaicloud/drone-kaniko
     settings:
       auto_tag: true
       username: riscue
+      repo: riscue/drone-file-dump
       password:
         from_secret: DOCKER_PASSWORD
     when:
