@@ -19,7 +19,7 @@ steps:
       - npm test
 
   - name: publish
-    image: banzaicloud/drone-kaniko
+    image: banzaicloud/drone-kaniko:0.5.1
     settings:
       auto_tag: true
       username: riscue
