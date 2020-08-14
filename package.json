@@ -16,7 +16,7 @@
   "license": "GPL",
   "devDependencies": {
     "@types/node": "^13.9.8",
-    "c8": "^7.1.2",
+    "c8": "^7.3.0",
     "eslint": "^7.6.0",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.4",
