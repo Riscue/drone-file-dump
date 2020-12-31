@@ -15,7 +15,7 @@
   "author": "İbrahim Akyel",
   "license": "GPL",
   "devDependencies": {
-    "@types/node": "^14.14.16",
+    "@types/node": "^14.14.17",
     "c8": "^7.3.5",
     "eslint": "^7.16.0",
     "husky": "^4.3.6",
